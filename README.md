@@ -1,0 +1,1 @@
+This repository contains my CV,showcasing my work experience,Education,Skills and Accomplishments.The Cv is available in both PDF and source file formats for easy access.

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Chinyere Happiness - CV</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color:black;
+        line-height: 1.6;
+    }
+    .container {
+        max-width: max-content;
+        max-height: max-content;
+        margin: 0 auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .contact-info {
+         margin-bottom: 5px;
+    }
+    .contact-info p {
+        margin: 5px 0;
+    }
+    .picture{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .picture img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .header {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .header h1{
+        font-size: 32px;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+    .header p{
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .collapsible {
+        cursor: pointer;
+        padding: 10px;
+        background: black;
+        color: white;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 18px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    .collapsible:after {
+        content: '\002B'; /* Add plus sign */
+        float: right;
+    }
+    .collapsible.active:after {
+        content: '\2212'; /* Add minus sign */
+    }
+    .content {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .content h2{
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    .content h3{
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 5px; /* Reduce the space below. */
+    }
+    .content p{
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .content ul,.content ul li{
+        margin-top: 0;
+        font-size: 18px;
+        color: black;
+    }
+
+    h1, h2,h3 {
+        color: black;
+    }
+    p{
+        margin-top: 0; /* Remove top margin for the paragraph. */
+        font-size: 14px;
+    }
+    ul {
+        margin-top: 0;
+        padding: 0;
+        margin: 16px;
+        color: black; 
+    }
+    ul li {
+        margin-top: 0; 
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: black;
+    }
+    #download-btn {
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color:black;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    footer {
+        margin: 5px;
+        margin-top: 20px;
+        padding: 10px 0;
+        background-color:black;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 10px;
+        clear: both;
+    } 
+     /* Mobile view  */
+@media  (max-width: 768px) {
+    .container {
+        margin: 0;
+        padding: 10px;
+    }
+    .picture img {
+        width: 100px;
+        height: 100px;
+    }
+    .header h1{
+        font-size: 24px;
+    }
+    .section h2{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 0;
+    }
+    .picture img {
+        width: 100px;
+        height: 100px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .section h2{
+        font-size: 20px;
+    }
+    .section h3{
+        font-size: 18px;
+    }
+    .container {
+        padding: 10px;
+    }
+    ul li {
+        font-size: 18px;
+    }
+}
+/* Desktop view (min-width:769px) */
+@media  (min-width: 769px) {
+    .container{
+        padding:30px;
+    }
+    .picture img{
+        width: 150px;
+        height:150px;
+    }
+    .header h1{
+        font-size: 36px;
+    }
+    .section h2{
+        font-size: 24px;
+    }
+}     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-info">
+            <div class="picture">
+                <img src="./image/Daniel chinyere Happiness.jpg" alt="Daniel Chinyere Happiness">
+            </div>
+            <div class="header">
+                <h1>Daniel Chinyere Happiness</h1>
+                <p><strong> 📞 Phone No: </strong>   08038383385, 08025638902</p>
+                <p><strong> ✉️ Email: </strong>  happinessdaniel2024@gmail.com</p>
+            </div>
+        </div>
+        <button class="collapsible"> Professional Summary</button>
+        <div class="content">
+            <ul>
+                <li>A results-driven professional with over 10 years of experience in teaching, coaching, career counseling, and customer service.</li>
+                <li>Proficient in using MS Office tools, web development technologies, including (HTML, CSS, JavaScript, React.js, Node.js), and delivering impactful training sessions.</li>
+                <li>Recognized for strong team collaboration, motivational leadership, excellent communication skills, and a commitment to lifelong learning.</li>
+            </ul>
+        </div>
+        <button class="collapsible"> Career Objectives</button>
+        <div class="content">
+            <ul>
+                <li>To contribute my expertise and enthusiasm to an organization where I can fully apply my skills, continuously learn, and make a meaningful impact.</li>
+                <li>To be a collaborative team player and drive initiatives that align with organizational goals while achieving personal and professional growth.</li>
+            </ul>
+        </div>
+
+        <button class="collapsible"> Professional Experience</button>
+        <div class="content">
+            <h3> Web Developer (LITA Bootcamp Student) </h3> 
+            <p><strong> The Incubator Hub </strong>  - Redemption City, Ogun State. (August 2024 - Till Date) </p>
+            <ul> 
+                <li>Training in  HTML,CSS, JavaScript,React js, Node js for web development. </li>
+                <li> Building and maintaining interactive web pages.  </li>   
+            </ul>  
+            <h3>Frontend Web Developer (Trainee) </h3>  
+            <p><strong>VNICOM Tech Hub </strong> - Magboro, Ogun State. (September 2023 - August 2024) </p>
+            <ul>
+                <li> Learning and implementing frontend development technologies,including HTML,CSS and JavaScript. </li>
+                <li> Collaborating on web development projects as part of a team. </li>
+            </ul>
+            <h3> Science Teacher </h3>  
+            <p><strong>Rock of Ages Model Schools </strong> - Makogi,Ogun State. (May 2017 - July 2023) </p>
+            <ul>
+                <li> Taught mathematics,Agricultural Science,Basic Science, and ICT to junior and Senior secondary students. </li>
+                <li>  Conducted examinations and assessments to track student performance.</li>
+            </ul>
+            <h3> ICT Teacher  </h3>
+            <p><strong> Shedron International Schools </strong> - Makogi, Ogun State. (September 2022-December 2022) </p>
+            <ul>
+                <li> Delievered ICT Curriculum for both primary and Secondary School students.</li>
+                <li> Faciliated practical training on computer usage and applications.</li>
+            </ul> 
+            <h3> System Administrator </h3> 
+            <p><strong> Net-Potech Services </strong>  - Ikeja, Lagos State. (January 2007 - September 2015) </p>
+            <ul>
+                <li> provided customer service support,coordinated training programs, and managed hardware/software upgrades. </li>
+                <li> Diagnosed and resolved computer issues effectively. </li>   
+            </ul>   
+            <h3> Trainee system Engineer </h3>
+            <p><strong> CyberKings computers Systems </strong>  -University of Benin,Benin City. (2006 -2007) </p> 
+            <ul>
+                <li>Assembled and repair Computer systems.</li>
+                <li> Supported Cyber cafe operations by managing end-user requirements.</li>
+            </ul> 
+            <h3> Computer Analyst (NYSC) </h3>
+            <p><strong> Irepodun/Ifelodun Local Government Secretariat </strong> - Igede-Ekiti,Ekiti state. (March 2004 -February 2005.) </p>
+            <ul>
+                <li> Supervised data entry and handled computer operations.</li>
+            </ul>
+            <h3> Industrial Trainee </h3>
+            <p><strong> Golden Guinea Breweries PLC </strong> - Umuahia, abia State. ( 2000 -2001) </p> 
+            <ul>
+                <li> Performed data entry,payroll preparation using specialized programs and MS office tools.</li>
+            </ul> 
+        </div>
+        <button class="collapsible"> Education</button>
+        <div class="content">
+            <ul>
+                <li><strong> Higher National Diploma (HND) in Computer Science  </strong>    - Akanu Ibiam Federal Polytechnic, Ebonyi State. (2003)</li>
+                <li><strong> National Diploma (ND) in Computer Science </strong>  - Akanu Ibiam Federal Polytechnic, Ebonyi State. (2000)</li>
+                <li><strong> Senior School Certificate Examination (SSCE) </strong> - Nguru Secondary Commercial School, Imo State. (1993)</li>
+                <li> <strong>First School Leaving Certificate (FSLC) </strong> -Town School Eke Nguru, Imo State. (1984)</li>
+            </ul> 
+        </div>
+        <button class="collapsible"> Skills </button>
+        <div class="content">
+            <ul>
+                <li>Proficient in HTML, CSS, JavaScript, React.js, Node.js, and MS Office tools.</li>
+                <li>Strong analytical, teaching, and counseling skills.</li>
+                <li>Excellent written and verbal communication.</li>
+                <li>Expertise in training coordination and customer service.</li>
+            </ul>
+        </div>
+        <button class="collapsible"> Hobbies </button>
+        <div class="content">
+            <ul>
+                <li>Reading, Research,Teaching and Learning new skills  </li>
+            </ul>
+        </div>
+        <button class="collapsible"> References </button>
+        <div class="content">
+            <ul>
+                <li><strong> Dr. Daniel Daniel  </strong> - Medical Superintendent, Hero Medical Centre Ltd. <strong>Phone: </strong>  08035522622. </li>
+                <li><strong>Engr. Ime Ita Daniel </strong>  - Managing Director, Net-Potech Services. <strong> Phone: </strong>  09059622020, 08034016008. </li>
+            </ul>
+        </div>
+            <a href="#" id="download-btn" onclick="downloadPDF()">Download as PDF</a>
+    <footer>
+        &copy; 2024 Daniel Chinyere Happiness. All rights reserved.
+    </footer>
+    </div>
+    <script>
+        // Collapsible Sections
+        document.querySelectorAll('.collapsible').forEach(button => {
+            button.addEventListener('click', function () {
+                this.classList.toggle('active');
+                const content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        });
+
+        // Download CV as PDF
+        function downloadPDF() {
+            const element = document.body;
+            html2pdf().from(element).save('Daniel_Chinyere_Happiness_CV.pdf');
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+</body>
+</html>

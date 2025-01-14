@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color:black;
+    line-height: 1.6;
+}
+.container {
+    max-width: max-content;
+    max-height: max-content;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.picture{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.contact-info {
+    margin-bottom: 5px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.header {
+    padding: 20px 0;
+    text-align: center;
+}
+.header h1{
+    font-size: 32px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.header p{
+    font-size: 18px;
+    margin-top: 0;
+}
+.section {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.section h2{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.section h3{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 5px; /* Reduce the space below. */
+}
+.section p{
+    font-size: 20px;
+    margin-top: 0;
+}
+.section ul,.section ul li{
+    margin-top: 0;
+    font-size: 18px;
+    color: black;
+}
+
+h1, h2,h3 {
+    color: black;
+}
+p{
+    margin-top: 0; /* Remove top margin for the paragraph. */
+    font-size: 14px;
+}
+ul {
+    margin-top: 0;
+    padding: 0;
+    margin: 16px;
+    color: black; 
+}
+ul li {
+    margin-top: 0; 
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: black;
+}
+#download-btn {
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color:black;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+}
+footer {
+    margin: 5px;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color:black;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    clear: both;
+}
+/* Mobile view  */
+@media  (max-width: 768px) {
+    .container {
+        margin: 0;
+        padding: 10px;
+    }
+    .picture img {
+        width: 100px;
+        height: 100px;
+    }
+    .header h1{
+        font-size: 24px;
+    }
+    .section h2{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 0;
+    }
+    .picture img {
+        width: 100px;
+        height: 100px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .section h2{
+        font-size: 20px;
+    }
+    .section h3{
+        font-size: 18px;
+    }
+    .container {
+        padding: 10px;
+    }
+    ul li {
+        font-size: 18px;
+    }
+}
+/* Desktop view (min-width:769px) */
+@media  (min-width: 769px) {
+    .container{
+        padding:30px;
+    }
+    .picture img{
+        width: 150px;
+        height:150px;
+    }
+    .header h1{
+        font-size: 36px;
+    }
+    .section h2{
+        font-size: 24px;
+    }
+}
